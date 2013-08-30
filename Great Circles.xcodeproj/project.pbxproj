@@ -13,25 +13,8 @@
 		DD63173317D14C86008CA79B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD63173117D14C86008CA79B /* InfoPlist.strings */; };
 		DD63173517D14C86008CA79B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD63173417D14C86008CA79B /* main.m */; };
 		DD63173917D14C86008CA79B /* MBXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD63173817D14C86008CA79B /* MBXAppDelegate.m */; };
-		DD63173C17D14C86008CA79B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD63173A17D14C86008CA79B /* Main.storyboard */; };
 		DD63173F17D14C86008CA79B /* MBXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD63173E17D14C86008CA79B /* MBXViewController.m */; };
-		DD63174117D14C86008CA79B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD63174017D14C86008CA79B /* Images.xcassets */; };
-		DD63174817D14C86008CA79B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD63174717D14C86008CA79B /* XCTest.framework */; };
-		DD63174917D14C86008CA79B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD63172817D14C86008CA79B /* Foundation.framework */; };
-		DD63174A17D14C86008CA79B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD63172C17D14C86008CA79B /* UIKit.framework */; };
-		DD63175217D14C86008CA79B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD63175017D14C86008CA79B /* InfoPlist.strings */; };
-		DD63175417D14C86008CA79B /* Great_CirclesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD63175317D14C86008CA79B /* Great_CirclesTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DD63174B17D14C86008CA79B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DD63171D17D14C86008CA79B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD63172417D14C86008CA79B;
-			remoteInfo = "Great Circles";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DD63172517D14C86008CA79B /* Great Circles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Great Circles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,15 +27,9 @@
 		DD63173617D14C86008CA79B /* Great Circles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Great Circles-Prefix.pch"; sourceTree = "<group>"; };
 		DD63173717D14C86008CA79B /* MBXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXAppDelegate.h; sourceTree = "<group>"; };
 		DD63173817D14C86008CA79B /* MBXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXAppDelegate.m; sourceTree = "<group>"; };
-		DD63173B17D14C86008CA79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD63173D17D14C86008CA79B /* MBXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXViewController.h; sourceTree = "<group>"; };
 		DD63173E17D14C86008CA79B /* MBXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXViewController.m; sourceTree = "<group>"; };
-		DD63174017D14C86008CA79B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DD63174617D14C86008CA79B /* Great CirclesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Great CirclesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD63174717D14C86008CA79B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DD63174F17D14C86008CA79B /* Great CirclesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Great CirclesTests-Info.plist"; sourceTree = "<group>"; };
-		DD63175117D14C86008CA79B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DD63175317D14C86008CA79B /* Great_CirclesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Great_CirclesTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +43,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD63174317D14C86008CA79B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD63174817D14C86008CA79B /* XCTest.framework in Frameworks */,
-				DD63174A17D14C86008CA79B /* UIKit.framework in Frameworks */,
-				DD63174917D14C86008CA79B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				DD63172E17D14C86008CA79B /* Great Circles */,
-				DD63174D17D14C86008CA79B /* Great CirclesTests */,
 				DD63172717D14C86008CA79B /* Frameworks */,
 				DD63172617D14C86008CA79B /* Products */,
 			);
@@ -93,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				DD63172517D14C86008CA79B /* Great Circles.app */,
-				DD63174617D14C86008CA79B /* Great CirclesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,10 +79,8 @@
 			children = (
 				DD63173717D14C86008CA79B /* MBXAppDelegate.h */,
 				DD63173817D14C86008CA79B /* MBXAppDelegate.m */,
-				DD63173A17D14C86008CA79B /* Main.storyboard */,
 				DD63173D17D14C86008CA79B /* MBXViewController.h */,
 				DD63173E17D14C86008CA79B /* MBXViewController.m */,
-				DD63174017D14C86008CA79B /* Images.xcassets */,
 				DD63172F17D14C86008CA79B /* Supporting Files */,
 			);
 			path = "Great Circles";
@@ -130,24 +93,6 @@
 				DD63173117D14C86008CA79B /* InfoPlist.strings */,
 				DD63173417D14C86008CA79B /* main.m */,
 				DD63173617D14C86008CA79B /* Great Circles-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DD63174D17D14C86008CA79B /* Great CirclesTests */ = {
-			isa = PBXGroup;
-			children = (
-				DD63175317D14C86008CA79B /* Great_CirclesTests.m */,
-				DD63174E17D14C86008CA79B /* Supporting Files */,
-			);
-			path = "Great CirclesTests";
-			sourceTree = "<group>";
-		};
-		DD63174E17D14C86008CA79B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DD63174F17D14C86008CA79B /* Great CirclesTests-Info.plist */,
-				DD63175017D14C86008CA79B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,24 +117,6 @@
 			productReference = DD63172517D14C86008CA79B /* Great Circles.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DD63174517D14C86008CA79B /* Great CirclesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD63175A17D14C86008CA79B /* Build configuration list for PBXNativeTarget "Great CirclesTests" */;
-			buildPhases = (
-				DD63174217D14C86008CA79B /* Sources */,
-				DD63174317D14C86008CA79B /* Frameworks */,
-				DD63174417D14C86008CA79B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DD63174C17D14C86008CA79B /* PBXTargetDependency */,
-			);
-			name = "Great CirclesTests";
-			productName = "Great CirclesTests";
-			productReference = DD63174617D14C86008CA79B /* Great CirclesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +126,6 @@
 				CLASSPREFIX = MBX;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = MapBox;
-				TargetAttributes = {
-					DD63174517D14C86008CA79B = {
-						TestTargetID = DD63172417D14C86008CA79B;
-					};
-				};
 			};
 			buildConfigurationList = DD63172017D14C86008CA79B /* Build configuration list for PBXProject "Great Circles" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,7 +141,6 @@
 			projectRoot = "";
 			targets = (
 				DD63172417D14C86008CA79B /* Great Circles */,
-				DD63174517D14C86008CA79B /* Great CirclesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,17 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD63174117D14C86008CA79B /* Images.xcassets in Resources */,
 				DD63173317D14C86008CA79B /* InfoPlist.strings in Resources */,
-				DD63173C17D14C86008CA79B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD63174417D14C86008CA79B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD63175217D14C86008CA79B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,45 +167,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD63174217D14C86008CA79B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD63175417D14C86008CA79B /* Great_CirclesTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DD63174C17D14C86008CA79B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DD63172417D14C86008CA79B /* Great Circles */;
-			targetProxy = DD63174B17D14C86008CA79B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DD63173117D14C86008CA79B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DD63173217D14C86008CA79B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DD63173A17D14C86008CA79B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD63173B17D14C86008CA79B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DD63175017D14C86008CA79B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD63175117D14C86008CA79B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -398,46 +277,6 @@
 			};
 			name = Release;
 		};
-		DD63175B17D14C86008CA79B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Great Circles.app/Great Circles";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Great Circles/Great Circles-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Great CirclesTests/Great CirclesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		DD63175C17D14C86008CA79B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Great Circles.app/Great Circles";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Great Circles/Great Circles-Prefix.pch";
-				INFOPLIST_FILE = "Great CirclesTests/Great CirclesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -455,14 +294,6 @@
 			buildConfigurations = (
 				DD63175817D14C86008CA79B /* Debug */,
 				DD63175917D14C86008CA79B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		DD63175A17D14C86008CA79B /* Build configuration list for PBXNativeTarget "Great CirclesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD63175B17D14C86008CA79B /* Debug */,
-				DD63175C17D14C86008CA79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
